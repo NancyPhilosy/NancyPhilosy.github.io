@@ -12,11 +12,11 @@
    }
   </style>
 </head>
-<body>
+<body class="font-sans">
    <header class="bg-orange-950 text-white py-4">
-      <nav class="container flex justify-between items-center">
+      <nav class="container flex justify-between items-center ">
          <div>
-            <h1 class="font-bold"><span class="text-orange-500">Saidikshya</span> Tamang</h1>
+            <h1 class="text-[20px] font-bold"><span class="text-orange-500">Saidikshya</span> Tamang</h1>
          </div>
         
          <ul class="flex gap-10">
@@ -30,16 +30,37 @@
                <a href="">Education</a>
             </li>
          </ul>
-         <div class="bg-white text-orange-950 py-2 px-4 rounded-2xl">
+         <div class="bg-white text-orange-950 py-2 px-4 rounded-lg">
             <a href="">Contact Me</a>
          </div>
       </nav>
    </header>
    <main>
-      
+      <section class="py-10">
+         <div class="container grid grid-cols-2 items-center">
+            <div class="space-y-5">
+               <h1 class="text-3xl font-bold">
+                  Hi <br>
+                  I'm <span class="text-orange-500">Saidikshya</span> Tamang <br>
+                  a Full Stack Laravel Student
+               </h1>
+               <p>
+                  I'm Saidikshya Tamang, a dedicated learner currently studying Full Stack Laravel <br> at Code IT. I’m passionate about web development and constantly improving <br> my skills to create innovative and user-friendly solutions.
+               </p>
+               <div>
+                  <a href="" class="bg-black text-white py-2 px-4 rounded-lg hover:shadow-lg">Hire Me</a>
+                  <a href="" class="bg-orange-500 text-white py-2 px-4 m-4 rounded-lg hover:shadow-lg">Experience</a>
+               </div>
+            </div>
+            <div class="m-auto">
+               <img class="h-[400px] rounded-[50%]" src="./images/nancy.jpg" alt="Nancy">
+            </div>
+         </div>
+      </section>
    </main>
    <footer>
 
    </footer>
+   <!--npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
 </body>
 </html>
