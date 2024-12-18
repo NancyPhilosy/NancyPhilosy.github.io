@@ -10,6 +10,15 @@
       width: 86%;
       margin: auto;
    }
+   .shadow-in {
+      background-color: 0 0 20px #f97316;
+   }
+   form input, textarea {
+      box-shadow: 0 0 10px #333;
+      border-radius: 6px;
+      padding: 4px 8px;
+      width: 100%;
+   } 
   </style>
 </head>
 <body class="font-sans">
@@ -36,6 +45,7 @@
       </nav>
    </header>
    <main>
+      <!--hero section-->
       <section class="py-10">
          <div class="container grid grid-cols-2 items-center">
             <div class="space-y-5">
@@ -57,10 +67,64 @@
             </div>
          </div>
       </section>
+      <!--hero section-->
+
+      <!--about section-->
+      <section class="py-10 bg-orange-950 text-white">
+         <div class="container grid grid-cols-2 items-center">
+            <div class="m-auto shadow-in">
+               <img class=" h-[400px] rounded-[50%]" src="./images/nancy.jpg" alt="Nancy">
+            </div>
+            <div class="space-y-5">
+               <h1 class="text-3xl font-bold">
+                  About <span class="text-orange-500">Me</span> <br>
+                  <span class="text-orange-500">Full Stack</span> Student
+               </h1>
+               <p>
+                  I'm Saidikshya Tamang, a dedicated learner currently studying Full Stack Laravel <br> at Code IT. I’m passionate about web development and constantly improving <br> my skills to create innovative and user-friendly solutions.
+               </p>
+               <div>
+                  
+                  <a href="" class="bg-orange-500 text-white py-2 px-4 rounded-lg hover:shadow-lg">Experience</a>
+               </div>
+            </div>
+            
+         </div>
+      </section>
+      <!--about section-->
+
+      <!--Contact section-->
+      <section class="py-10 ">
+         <div class="w-[40%] m-auto">
+            <h1 class="font-bold text-3xl p-[20px] text-center">Contact <span class="text-orange-500">Me</span></h1>
+            <form class="space-y-4">
+               <div>
+                 <input type="text" class="name" id="name" placeholder="Full Name" required>
+               </div>
+               <div>
+                 <input type="email" class="email" id="email" placeholder="Email Address" required>
+               </div>
+               <div>
+                 <input type="tell" class="number" id="number" placeholder="Phone Number" required>
+               </div>
+               <div>
+                 <input type="text" class="subject" id="subject" placeholder="Subject" required>
+               </div>
+               <div>
+                 <textarea name="message" id="message" placeholder="Message"></textarea>
+               </div>
+           </form>
+         
+           <div class="p-[20px] text-center">
+              <a href="" class="bg-black text-white py-2 px-4 rounded-lg hover:shadow-lg">Send Message</a>
+           </div>
+         </div>
+      </section>
+      <!--Contact section-->
    </main>
    <footer>
 
    </footer>
    <!--npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
 </body>
-</html>
+</html> 
