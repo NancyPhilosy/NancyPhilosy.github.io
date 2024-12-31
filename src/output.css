@@ -739,24 +739,16 @@ video {
   overflow-y: auto;
 }
 
+.rounded-\[30\%\] {
+  border-radius: 30%;
+}
+
 .rounded-\[50\%\] {
   border-radius: 50%;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-\[\%\] {
-  border-radius: %;
-}
-
-.rounded-\[25\%\] {
-  border-radius: 25%;
-}
-
-.rounded-\[30\%\] {
-  border-radius: 30%;
 }
 
 .bg-black {
