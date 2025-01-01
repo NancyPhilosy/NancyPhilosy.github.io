@@ -47,3 +47,30 @@
 //     console.log(a + "x" + i + "=" + a * i)
 //     console.log(`${a} x ${i} = ${a*i}`) (mostly use)
 // }
+
+let mentors = [
+    {
+        Name: "Saidikshya Tamang",
+        Age: "20",
+        Address: "Dharan"
+    },
+    {
+        Name: "Preety Rai",
+        Age: "18",
+        Address: "Ktm"
+    },
+    {
+        Name: "Nancy Philosy",
+        Age: "19",
+        Address: "Dharan"
+    }
+
+]
+
+for (i = 0; i <= mentors.length; i++){
+    console.log(mentors[i].Name)
+}
+
+// mentors.forEach(m => {
+//     console.log(m.Name)
+// });
